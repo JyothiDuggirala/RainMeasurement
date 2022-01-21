@@ -3,7 +3,7 @@
 
 
 {
-    'name': 'Rainhistory',
+    'name': 'RainMeasurement',
     'category': 'Sales/CRM',
     'sequence': 150,
     'summary': 'Shows historical rain data',
@@ -14,7 +14,8 @@ You can track your vendors, customers and other contacts.
     'depends': ['base', 'mail'],
     'data': [
         'security/ir.model.access.csv',
-        'views/contact_views.xml',
+        'views/rain_views.xml',
+        'views/rain_template.xml',
     ],
     'application': True,
     'license': 'LGPL-3',

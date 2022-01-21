@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-Rainhistory.access_rain_history,access_rain_history,Rainhistory.model_rain_history,base.group_user,1,1,1,1
+RainMeasurement.access_rain_history,access_rain_history,RainMeasurement.model_rain_measurement,base.group_user,1,1,1,1
